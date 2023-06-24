@@ -1,0 +1,128 @@
+{
+    "title": "What Dartmouth study spot would you be?",
+    "outcomes": {
+        "ffb":
+        {
+            "img": "./media/outcome-ffb.jpg",
+            "text": "You are FFB (first-floor Berry)! You have a nice, warm personality and doesn't mind straying away from nature once in a while."
+        },
+        "fairchild": {
+            "img": "./media/outcome-fairchild.jpg",
+            "text": "You are Fairchild! You love the outdoors and being one with nature."
+        },
+        "stacks": {
+            "img": "./media/outcome-stacks.jpg",
+            "text": "You are the stacks! You might not be the bubbliest person, but you are driven and know what you want."
+        },
+        "tower-room":
+        {
+            "img": "./media/outcome-tower.jpg",
+            "text": "You are the tower room! Warm and cozy, you are easy going and get along with with most people."
+        }
+    },
+    "questions": [
+        {
+            "question_name": "What is your ideal color palette?",
+            "question_img_url": "./media/color.png",
+            "name": "color-palette",
+            "answers": [
+                {
+                    "img_url": "./media/tower.png",
+                    "outcome": "tower-room"
+                },
+                {
+                    "img_url": "./media/stacks.png",
+                    "outcome": "stacks"
+                },
+                {
+                    "img_url": "./media/fairchild.png",
+                    "outcome": "fairchild"
+                },
+                {
+                    "img_url": "./media/ffb.png",
+                    "outcome": "ffb"
+                }
+
+            ]
+        },
+        {
+            "question_name": "How talkative are you when you're working?",
+            "question_img_url": "./media/talking.jpg",
+            "name": "volume",
+            "answers": [
+                {
+                    "text": "Depends on the people around me",
+                    "outcome": "fairchild"
+                },
+                {
+                    "text": "Mostly silent",
+                    "outcome": "tower-room"
+                },
+                {
+                    "text": "Keep your breathing down",
+                    "outcome": "stacks"
+                },
+                {
+                    "text": "Study time is social time",
+                    "outcome": "ffb"
+                }
+
+            ]
+        },
+        {
+            "question_name": "What's your ideal temperature?",
+            "question_img_url": "./media/weather.jpg",
+            "name": "temp",
+            "answers": [
+                {
+                    "text": "Room temperature",
+                    "img_url": "./media/room-temp.png",
+                    "outcome": "ffb"
+                },
+                {
+                    "text": "Operating room cold",
+                    "img_url": "./media/cold.jpg",
+                    "outcome": "stacks"
+                },
+                {
+                    "text": "Similar to the weather outside",
+                    "img_url": "./media/weather.jpg",
+                    "outcome": "fairchild"
+                },
+                {
+                    "text": "Warm and cozy",
+                    "img_url": "./media/cozy.png",
+                    "outcome": "tower-room"
+                }
+
+            ]
+        },
+        {
+            "question_name": "How much do you care about pretty outdoor views?",
+            "question_img_url": "./media/beauty.jpg",
+            "name": "view",
+            "answers": [
+                {
+                    "text": "I hate them",
+                    "img_url": "./media/no.png",
+                    "outcome": "stacks"
+                },
+                {
+                    "text": "A must in my daily life",
+                    "img_url": "./media/love.png",
+                    "outcome": "fairchild"
+                },
+                {
+                    "text": "Not that important",
+                    "img_url": "./media/maybe.png",
+                    "outcome": "ffb"
+                },
+                {
+                    "text": "I enjoy them",
+                    "img_url": "./media/yes.png",
+                    "outcome": "tower-room"
+                }
+
+            ]
+        }
+    ]}

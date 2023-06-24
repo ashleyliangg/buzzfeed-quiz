@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Buzzfeed Quiz</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header></header>
+    <div id="question-list"></div>
+    <button id="submission" class="pushable">
+        <span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front bodytext">
+          Submit
+        </span>
+    </button>
+    <div id="error">
+        Must answer all the questions!
+    </div>
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <span class="close" id="close-btn">&times;</span>
+            <img id="modal-img"/>
+            <p id="modal-answer"></p>
+        </div>
+    </div>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
+
